@@ -16,14 +16,14 @@ body{
 
   
   
-#header{
+ #header{
     min-height: 100vm;
     width: 100%;
     background-position: center;
-    background-size:cover
+    background-size:cover 
 
 
-}
+} 
 
 .header{
     background-color:gray;
