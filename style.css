@@ -1,0 +1,56 @@
+body{
+    margin: 0%;
+    padding: 0%;
+
+    display :flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.shojumaru-regular {
+    font-family: "Shojumaru", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  
+  
+#header{
+    min-height: 100vm;
+    width: 100%;
+    background-position: center;
+    background-size:cover
+
+
+}
+
+.header{
+    background-color:gray;
+    font-family: "Shojumaru", system-ui;
+    position: fixed;
+    text-align: center;
+    color: maroon;
+    margin :0;
+    margin-bottom: 30px;
+    padding: 16px;
+    width: 100%;
+  
+}
+.breeds-select{
+width: 350px;
+height: 30px;
+position: fixed;
+margin: 70px;
+
+}
+
+#dogs-img{
+    object-fit: contain;
+    width: 30%;
+    margin: 100px auto;
+    position: fixed;
+    top: 10%;
+
+
+}
