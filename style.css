@@ -50,6 +50,7 @@ margin: 75px;
   
     border: 2px solid #090a0a; 
     background-color: #ccebf5; 
+    transition-duration: 60ms;
   }
 
 #dogs-img{
