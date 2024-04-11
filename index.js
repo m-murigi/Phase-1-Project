@@ -79,14 +79,16 @@ const feedDogsDescription = ({ bred_for: bredFor, bred_group: bredGroup,name, te
 }
 
 const getDogByBreed = async (breedId) => {
+
  
   const[data] = await fetch(baseUrl + "/images/search?include_breed=1&breed_id=" +breedId).then((data)=>data.json())
 
-    const { url: imageUrl, breeds } = data;
+
+    const { url: imageUrl, breeds} = data;
     feedDogsImage(imageUrl);
-   
-    feedDogsDescription(breeds[0]);
-    
+   //if (breeds && breeds.length > 0) {
+    feedDogsDescription(breeds[1]);
+   //}else { throw new Error("No breed information found for the given dog")}
    console.log(data);
     }
     

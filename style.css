@@ -16,17 +16,19 @@ body{
 
   
   
- #header{
-    min-height: 100vm;
+ #cover{
+    /* min-height: 100vm; */
     width: 100%;
-    background-position: center;
-    background-size:cover 
+;
+
+    /* background-position: center; */
+    /* background-size:cover ; */
 
 
 } 
 
 .header{
-    background-color:gray;
+    background-color:rgba(128, 128, 128, 0.808);
     font-family: "Shojumaru", system-ui;
     position: fixed;
     text-align: center;
@@ -41,9 +43,14 @@ body{
 width: 350px;
 height: 30px;
 position: fixed;
-margin: 70px;
+margin: 75px;
 
 }
+.breeds-select:hover {
+    /* Add your hover styles here */
+    border: 2px solid #090a0a; /* Example border color */
+   
+  }
 
 #dogs-img{
     object-fit: contain;
