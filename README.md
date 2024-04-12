@@ -21,6 +21,7 @@ https://github.com/m-murigi/Phase-1-Project
 
 # Live Link
 [Git](gh-pages link)
+ https://m-murigi.github.io/Phase-1-Project/
 
 ## Technologies used
 HTML
