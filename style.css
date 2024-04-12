@@ -18,11 +18,11 @@ body{
   }
 
 .header{
-    background-color:rgba(243, 153, 195, 0.651);
+    background-color:rgba(111, 126, 122, 0.651);
     font-family: "Shojumaru", system-ui;
     position: fixed;
     text-align: center;
-    color: rgb(252, 245, 148);
+    color: rgb(109, 30, 30);
     margin :0;
     margin-bottom: 30px;
     padding: 16px;
@@ -39,7 +39,7 @@ margin: 75px;
 .breeds-select:hover {
   
     border: 2px solid #090a0a; 
-    background-color: #f0e295; 
+    background-color: #92afab; 
     transition-duration: 60ms;
     cursor: pointer;
   }
@@ -49,11 +49,7 @@ margin: 75px;
     object-fit: contain;
      width: 50%; 
     margin: 150px auto;
-
- 
-  
-    top: 50%;
-   
+    top: 50%;  
 }
 
  .dog-details{ 
@@ -70,8 +66,6 @@ flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
-
-
 }
 
 .dislike-button {
@@ -81,8 +75,6 @@ flex-direction: column;
     border-radius: 10px;
     cursor: pointer;
     font-size: 16px;
-
-
   }
 
   .like-button{
@@ -92,10 +84,6 @@ flex-direction: column;
     border-radius: 10px;
     cursor: pointer;
     font-size: 16px;
-  
-   
- 
-
   }
 
   .like-button:hover {
